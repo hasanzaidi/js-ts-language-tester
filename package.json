@@ -1,0 +1,29 @@
+{
+  "name": "js-ts-language-tester",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanzaidi/js-ts-language-tester.git"
+  },
+  "author": "Hasan Zaidi",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "mocha": {
+    "require": [
+      "ts-node/register",
+      "esm"
+    ],
+    "recursive": "true",
+    "spec": "test/*"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "esm": "3.2.25",
+    "mocha": "6.2.2",
+    "mocha-typescript": "1.1.17",
+    "ts-node": "7.0.1",
+    "typescript": "3.9.5"
+  }
+}
