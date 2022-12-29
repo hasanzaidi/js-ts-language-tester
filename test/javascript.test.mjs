@@ -1,3 +1,4 @@
+// Need to use .mjs extension to tell Node that this is a JavaScript module
 import { expect } from 'chai';
 
 describe('JavaScript tests', function() {
